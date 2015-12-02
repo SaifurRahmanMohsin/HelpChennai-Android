@@ -1,4 +1,4 @@
-package com.tempestronics.helpchennai;
+package com.tempestronics.helpchennai.activity;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.tempestronics.helpchennai.R;
 import com.tempestronics.helpchennai.model.Doctor;
 
 import java.util.ArrayList;

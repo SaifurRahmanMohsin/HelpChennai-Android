@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    tools:context="com.tempestronics.helpchennai.Base">
+    tools:context=".activity.Base">
 
     <ListView
         android:id="@+id/list"

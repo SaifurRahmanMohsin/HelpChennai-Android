@@ -1,4 +1,4 @@
-package com.tempestronics.helpchennai;
+package com.tempestronics.helpchennai.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -7,6 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.tempestronics.helpchennai.R;
 
 public class Base extends AppCompatActivity {
 
@@ -44,5 +46,9 @@ public class Base extends AppCompatActivity {
 
     public void onDoctorList(View view) {
         startActivity(DoctorList.newInstance(this));
+    }
+
+    public void onEmergencyList(View view) {
+        startActivity(EmergencyList.newInstance(this));
     }
 }
